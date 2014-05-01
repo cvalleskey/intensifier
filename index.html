@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+		<title>INTENSIFIER</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+
+	<body>
+		<span class="hide">
+			<canvas id="bitmap" width="250" height="250"></canvas>
+		</span>
+
+		<div id="dropbox">Drop it like it's hot</div>
+
+		<img id="image" />
+
+		<a id="upload" href="https://api.imgur.com/oauth2/authorize?response_type=token&client_id=e781a07d0760a0a">Upload to imgur</a>
+	</body>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script src="js/b64.js"></script>
+	<script src="js/LZWEncoder.js"></script>
+	<script src="js/NeuQuant.js"></script>
+	<script src="js/GIFEncoder.js"></script>
+	<script src="js/script.js"></script>
+
+	<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2641354-11']);
+  _gaq.push(['_setDomainName', 'chrisvalleskey.com']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+	</script>
+
+</html>
